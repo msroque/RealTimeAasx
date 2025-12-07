@@ -6,4 +6,4 @@ RUN pip install opcua
 RUN pip install cryptography
 RUN pip install docker
 EXPOSE 4840
-CMD ["python", "OpcUaServer.py"]
+CMD ["python", "OpcUaServer.py"] 

@@ -79,4 +79,4 @@ def get_row(num: int):
         return row
     else:
         print("Invalid row. Row count is: ", row_count)
-        return
+        return 

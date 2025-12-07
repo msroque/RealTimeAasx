@@ -4,7 +4,7 @@ from basyx.aas.adapter import aasx
 from basyx.aas.model import Property
 from basyx.aas.model.provider import DictObjectStore
 import time
-import docker
+import docker 
 
 # Path inside container is from shared volume
 aasx_path = "/aasx_files/original/Niryo-RobotAsset.aasx"

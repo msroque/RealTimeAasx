@@ -1,6 +1,6 @@
 from opcua import Client
 from csvProcessor import processCsv, get_row
-
+ 
 # CSV Reader
 csv_path = "../csv_files/output.csv"                            # Put file path to your CSV file here
 
