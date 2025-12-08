@@ -4,6 +4,7 @@
 
 pics/
 *.png
+*.svg
 
 __pycache__/
 *.pyc
