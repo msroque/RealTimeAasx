@@ -88,7 +88,6 @@ docker run --rm -p 4840:4840 \
 4. In a separate Terminal, run the OPC UA Client.
 
 ```bash
-cd ..
 cd client
 python3 OpcUaClient.py
 ```
