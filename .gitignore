@@ -2,10 +2,6 @@
 .AppleDouble
 .LSOverride
 
-pics/
-*.png
-*.svg
-
 __pycache__/
 *.pyc
 *.pyo
