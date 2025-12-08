@@ -14,6 +14,7 @@ The Web UI server displays an AAS file, the OPC UA Client modifies the AAS file 
 This project requires Docker Desktop and Python 3.10.9.
 
 * [![Docker](https://img.shields.io/badge/Docker_Download-2496ED?style=for-the-badge&logo=docker&logoColor=fff)](https://www.docker.com/)
+* [![XQuartz](https://img.shields.io/badge/XQuartz_Download-2496ED?style=for-the-badge&logo=data:/pics/Xlogo.png)](https://www.xquartz.org/)
 * [![Python](https://img.shields.io/badge/Python_Download%20-3776AB?style=for-the-badge&logo=python&logoColor=fff)](https://www.python.org/downloads/)
 
 ### Docker Setup
