@@ -13,7 +13,7 @@ The project was developed on Linux systems.
 
 ### Prerequites
 
-This project requires Docker Desktop, XQuartz and Python 3.10.9.
+This project requires Docker Desktop, XQuartz, and Python 3.10.9.
 
 * [![Docker](https://img.shields.io/badge/Docker_Download-2496ED?style=for-the-badge&logo=docker&logoColor=fff)](https://www.docker.com/)
 * [![XQuartz][XQuartz.org]](https://www.xquartz.org/)
