@@ -7,6 +7,8 @@ This project includes a Web UI Server, an OPC UA Server, and an OPC UA Client.
 
 The Web UI server displays an AAS file, the OPC UA Client modifies the AAS file from an CSV file, and the OPC UA Server updates the AAS file.
 
+The project was developed on Linux systems.
+
 ## Getting Started
 
 ### Prerequites
@@ -19,7 +21,7 @@ This project requires Docker Desktop and Python 3.10.9.
 
 ### Docker Setup
 
-After downloading Docker Desktop, create the following images and volume.
+After downloading Docker Desktop, create the following images and volume. Make sure XQuartz is open and running in the background.
 
 1. Create the shared volume in the Terminal.
 
