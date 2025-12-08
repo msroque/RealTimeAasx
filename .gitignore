@@ -1,6 +1,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+pics/
+*.png
 
 __pycache__/
 *.pyc
