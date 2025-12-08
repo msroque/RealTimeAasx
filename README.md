@@ -97,9 +97,13 @@ python3 OpcUaClient.py
 2. Have the Terminals for the server and client next to each other so that you can see the changes on both at the same time.
 3. Follow the prompts on the client terminal, and watch the changes happen on the servers.
 
-### Server and Client - Terminal at Start Up
+### Server and Client - Terminals at Start Up
 
-### Server and Client - Terminal at Update
+<img src="pics/startup.png" alt="Terminals at Startup">
+
+### Server and Client - Terminals at Update
+
+<img src="pics/update.png" alt="Terminals at Startup">
 
 ## Retrieving Updated AASX File
 
