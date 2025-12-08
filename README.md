@@ -69,6 +69,7 @@ git clone https://github.com/msroque/RealTimeAasx.git
 ```
 
 2. In a separate Terminal, navigate to where you saved the project. Build the OPC UA Server.
+   If you are asked to allow access to other apps, allow so that the terminal can access Docker Desktop.
 
 ```bash
 cd server
