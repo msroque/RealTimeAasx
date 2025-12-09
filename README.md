@@ -44,11 +44,20 @@ updated_aasx_path = "/aasx_files/Updated_Your_Robot.aasx"
 ```bash
 docker run --rm \
   -v shared_aasx:/tmp_data \
-  -v /Users/your_username/file_path_to/aasx_files:/tmp_local \
+  -v /Users/your_username/file_path_to/RealTimeAasx/aasx_files:/tmp_local \
   busybox \
   sh -c "mkdir -p /tmp_data/original" \
   sh -c "cp /tmp_local/Your_Robot.aasx /tmp_data/original" \
   sh -c "cp /tmp_local/Updated_Your_Robot.aasx /tmp_data"
+```
+
+Note: You can check the contents of the volume with the following commands
+
+```bash
+docker run --rm -it -v shared_aasx:/data busybox sh
+```
+```sh
+ls -la /data
 ```
 
 4. Create and run the Web UI Server. This command will create the image and container, and run the server. You can view the Web UI at `http://localhost:5001`.
