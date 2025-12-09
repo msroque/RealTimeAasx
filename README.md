@@ -46,9 +46,9 @@ docker run --rm \
   -v shared_aasx:/tmp_data \
   -v /Users/your_username/file_path_to/RealTimeAasx/aasx_files:/tmp_local \
   busybox \
-  sh -c "mkdir -p /tmp_data/original" \
-  sh -c "cp /tmp_local/Your_Robot.aasx /tmp_data/original" \
-  sh -c "cp /tmp_local/Updated_Your_Robot.aasx /tmp_data"
+  sh -c 'mkdir -p /tmp_data/original && \
+         cp /tmp_local/Niryo-RobotAsset.aasx /tmp_data/original/ && \
+         cp /tmp_local/Updated-Niryo-RobotAsset.aasx /tmp_data/'
 ```
 
 Note: You can check the contents of the volume with the following commands
